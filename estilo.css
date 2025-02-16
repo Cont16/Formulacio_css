@@ -1,0 +1,27 @@
+body {
+    background-image: url(./images\ \(1\).jpg);
+    style="text-align: center;
+    font-family: arial;
+    text-align: center;
+    color:#fff;
+    }
+header{
+    background-color: rgb(5, 5, 77);
+    color:#fff;
+    padding: 20px 0;
+    text-align: center;
+} 
+#centra {
+    text-align: center;
+  }
+
+footer{
+    text-align: center;
+    font-family: arial;
+    background-color:  rgb(5, 5, 77);
+    color: white;
+    padding: 11px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0
+}
