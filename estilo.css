@@ -1,27 +1,28 @@
-body {
-    background-image: url(./images\ \(1\).jpg);
-    style="text-align: center;
-    font-family: arial;
-    text-align: center;
-    color:#fff;
+body { 
+    background-image: url(./images\ \(1\).jpg);    /*sirve para colocar una imagen en el fondo de la pagina*/ 
+    text-align: center;                       /*para centrar el texto del cuerpo*/
+    font-family: arial;                                /*tipo de letra del cuerpo de la pagina*/
+    color:#fff;                             /*color de las letras*/
     }
 header{
-    background-color: rgb(5, 5, 77);
-    color:#fff;
-    padding: 20px 0;
-    text-align: center;
+    background-color: rgb(4, 4, 70);        /*darle color a nuestro encabezado*/
+    color:#fff;                             /*darle color a las letras de nuestro encabezado*/
+    padding:20px;                              /*para darle el tamaño a nuestro encabezado el ancho*/
+    text-align: center;                         /*alinear el texto de una forma centrada*/
+    position:sticky;                            /*la posición de nuestro encabezado*/
+    width: 100%;                                /*mide la el ancho de nuestro encabezado*/
 } 
 #centra {
-    text-align: center;
+    text-align: center;                         /*alinea el texto de nuestro formulario*/
   }
 
 footer{
-    text-align: center;
-    font-family: arial;
-    background-color:  rgb(5, 5, 77);
-    color: white;
-    padding: 11px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0
+    text-align: center;                         /*alinea el texto de nuestro pie de página*/
+    font-family: arial;                         /*tipo de letra de nuestro pie de página*/
+    background-color: rgb(4, 4, 70);          /*color de nuestro pie de página*/
+    color: white;                               /*color de letra de nuestro pie de pagina*/
+    padding: 11px 0;                            /*el ancho de nuestro pie de pagina*/
+    position:fixed;                             /*la posición de nuestro pie de pagina*/
+    width: 100%;                                /*mide el ancho a nuestro pie de página*/
+    bottom: 0                                   /*darle ancho a nuestro pie de pagina*/
 }
